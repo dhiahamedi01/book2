@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <title>Book</title>
+</head>
+<body>
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo"><a href="#">Nabil<span>book</span></a></div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">Nabil<span>book</span></span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="#">الرئيسية</a></li>
+          <li>
+            <a href="#">الكتب</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="#">مكتبة المناهج التعليمية و الكتب الدراسية</a></li>
+              <li><a href="#">مذكرات التخرج الجامعية </a></li>
+              <li><a href="#">المكتبة العامة</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">المؤلفون</a>
+          </li>
+          <li><a href="#">الدخول&ensp;
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+              <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+            </svg></a>
+          </li>
+          <li><a href="#">حساب جديد&ensp;
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill-add" viewBox="0 0 16 16">
+            <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0Zm-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+            <path d="M2 13c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z"/>
+          </svg></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <script src="script.js"></script>
+
+  <div class="search"><br>
+    <p>الفضول أحد الخصائص الدائمة والأكيدة للعقل النشيط.</p><br>
+    <div class="book">&ensp;
+				<input type="text" class="input" placeholder="إبحث عن كتاب أو مؤلف">
+          <button type="button">search</button>
+    </div>
+  </div>
+
+  <div class="parag">
+    <hr >
+    <p>لا أحب الكتب لأنني زاهد في الحياة .. ولكنني أحب الكتب لأن حياة واحدة لا تكفيني..
+       ومهما يأكل الانسان فإنه لن يأكل بأكثر من معدة واحدة، ومهما يلبس فإنه لن يلبس على غير جسد واحد،
+       ومهما يتنقل في البلاد فإنه لن يستطيع أن يحل في مكانين. ولكنه بزاد الفكر والشعور والخيال يستطيع أن يجمع الحيوات في عمر واحد
+      ، ويستطيع أن يضاعف فكره وشعوره وخياله كما يتضاعف الشعور بالحب المتبادل، وتتضاعف الصورة بين مرآتين.</p>
+    <hr>
+  </div><br>
+  <h3>الكتب الأكثر تحميلا</h3>
+  <hr class="border border-primary border-3 opacity-75"><br>
+
+
+
+  <div class="container">
+    <div class="row row-cols-2 row-cols-md-5 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="img/Book4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">أنت لي</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/book1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">أنتيخريستوس</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/book2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">رجالات المقداد  </h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/book3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">السر</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/book5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">أرض زيكولا</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><br><br><br>
+
+  <h3> كتب من هنا وهناك</h3>
+  <hr class="border border-primary border-3 opacity-75"><br>
+
+  <div class="container">
+    <div class="row row-cols-2 row-cols-md-5 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="img/book8.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">جاسوس سيناء</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/book1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">أنتيخريستوس</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/book7.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">  بيت أبو بيوت  </h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/book3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">السر</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/book6.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> حين يغضب المعلمون</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><br><br><br><br><br><br>
+
+
+
+  <footer>
+    <div class="content">
+      <div class="left box">
+        <div class="upper">
+          <div class="topic">معلومات عنا</div>
+          <p>تحميل الكتب العربية والمترجمة والروايات والقصص مجانا بصيغة بي دي اف, وقراءة
+             الكتب اونلاين. أسرع سيرفرات تحميل الكتب مجانا بروابط مباشرة</p>
+        </div>
+        <div class="lower">
+          <div class="topic">اتصل بنا </div>
+          <div class="phone">
+            <a href="#"><i class="fas fa-phone-volume"></i>21692031108+</a>
+          </div>
+          <div class="email">
+            <a href="#"><i class="fas fa-envelope"></i>abc@gmail.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="middle box">
+        <div class="topic">خدماتنا</div>
+        <div><a href="#"> مكتبة المناهج التعليمية و الكتب الدراسية  </a></div>
+        <div><a href="#">مذكرات التخرج الجامعية </a></div>
+        <div><a href="#">المكتبة العامة</a></div>
+      </div>
+      
+    </div>
+    <div class="bottom">
+      <p>حقوق الطبع والنشر © Nabil book  جميع الحقوق محفوظة 2023</p>
+    </div>
+  </footer>
+</body>
+</html>
